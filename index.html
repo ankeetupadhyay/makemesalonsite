@@ -1,781 +1,1705 @@
-<!--
-	Author: W3layouts
-	Author URL: http://w3layouts.com
-	License: Creative Commons Attribution 3.0 Unported
-	License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>Barber Beauty Category Flat Bootstrap Responsive Website Template | Home :: W3layouts</title>
+   <meta charset="utf-8">
+   <title>Makme Salon In Nerul | Unisex Salon In Navi Mumbai | Best Salon in Nerul | Best Salon In Navi Mumbai</title>
+   <!-- Mobile Metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="description" content="Beauty Salon HTML Template">
+   <!--Favicon-->
+   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+   <link rel="manifest" href="/manifest.json">
+   <meta name="msapplication-TileColor" content="#ffffff">
+   <meta name="msapplication-TileImage" content="http://razzle.mythicsdesign.com/images/favicon/ms-icon-144x144.png">
+   <meta name="theme-color" content="#ffffff">
+   <!-- CSS -->
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+   <link rel="stylesheet" href="assets/css/lity.css" />
+   <link rel="stylesheet" href="assets/css/style.css" />
+   <link rel="stylesheet" href="assets/css/responsive.css">
+   <link rel="stylesheet" href="assets/css/slick.css" />
+   <link rel="stylesheet" href="assets/css/font-awesome.css" />
+   <link rel="stylesheet" href="assets/css/datepicker.css" />
+   <link rel="stylesheet" href="assets/css/swiper.min.css" />
+   <link rel="stylesheet" href="assets/css/custom.css" />
+   <link rel="stylesheet" href="assets/css/stylefooter.css" />
+   <!--fonts css-->
+   <link rel="stylesheet" type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+   <link rel="stylesheet" type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Yeseva+One" rel="stylesheet">
+   <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet" />
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+   <style type="text/css">
+      .error {
+         color: red;
+      }
 
-    <!-- Meta tag Keywords -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <meta name="keywords" content="Barber Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-    <script type="application/x-javascript">
-        addEventListener("load", function() {
-            setTimeout(hideURLbar, 0);
-        }, false);
+      .floating-form {
+         width: 262px;
+         border: 1px solid #ddd;
+         right: -261px;
+         position: fixed;
+         box-shadow: -2px -0px 8px rgba(43, 33, 33, 0.06);
+         -moz-box-shadow: -2px -0px 8px rgba(43, 33, 33, 0.06);
+         -webkit-box-shadow: -2px -0px 8px rgba(43, 33, 33, 0.06);
+         min-height: auto;
+         top: 30%;
+         padding: 10px;
+         z-index: 999999;
+      }
 
-        function hideURLbar() {
-            window.scrollTo(0, 1);
-        }
-    </script>
-    <!--// Meta tag Keywords -->
+      textarea {
 
-    <!-- Date picker css file -->
-    <link rel="stylesheet" href="css/jquery-ui.css" />
-    <!-- //Date picker css file -->
+         padding: 12px 20px 12px 20px;
+         box-sizing: border-box;
+         border: 2px solid rgb(0, 0, 0);
+         border-radius: 4px;
+         font: #000;
+         height: 43px;
+         text-align: center;
+         font-size: 0.7em;
+         resize: none;
+      }
 
-    <!-- responsive tabs -->
-    <!-- for pricing section -->
-    <link href="css/easy-responsive-tabs.css" rel='stylesheet' type='text/css' />
-    <!-- responsive tabs -->
+      input[type=text] {
 
-    <!-- css files -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <!-- Bootstrap-Core-CSS -->
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-    <!-- Style-CSS -->
-    <link rel="stylesheet" href="css/fontawesome-all.css">
-    <!-- Font-Awesome-Icons-CSS -->
-    <!-- //css files -->
+         box-sizing: border-box;
+         border: 2px solid rgb(0, 0, 0);
+         border-radius: 4px;
+         font-size: 0.7em;
+         font: #000;
+         text-align: center;
 
-    <!-- web-fonts -->
-    <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=devanagari,latin-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <!-- //web-fonts -->
+         background-image: url('searchicon.png');
+         background-repeat: no-repeat;
+         padding: 12px 20px 12px 20px;
+      }
+
+      #selector {
+         height: 50px;
+      }
+
+      .contact-opener {
+         display: none;
+         position: absolute;
+         left: -129px;
+         transform: rotate(-90deg);
+         top: 145px;
+         background-color: yellow;
+         padding: 11px 50px;
+         color: #000;
+         cursor: pointer;
+         border-radius: 5px 5px 0px 0px;
+         -webkit-border-radius: 5px 5px 0px 0px;
+         -moz-border-radius: 5px 5px 0px 0px;
+         box-shadow: -2px -0px 8px rgba(43, 33, 33, 0.06);
+         -moz-box-shadow: -2px -0px 8px rgba(43, 33, 33, 0.06);
+         -webkit-box-shadow: -2px -0px 8px rgba(43, 33, 33, 0.06);
+         text-transform: uppercase;
+         font-size: 15px;
+      }
+
+      #planofloat .small {
+         font-size: 14px;
+         color: #575757;
+      }
+
+      .small {
+         margin: 11px 0px;
+      }
+
+      .form_photo_box {
+         position: fixed;
+         bottom: 3%;
+      }
+
+
+      .chat-img-width {
+         width: 90px;
+         margin-left: -20px;
+      }
+
+      .popup-box-on {
+         display: block !important;
+         background: #fff;
+         border: 1px solid #0094bb;
+      }
+
+      .chat-header-button {
+         background: none;
+         font-size: 20px;
+         opacity: 0.9;
+         padding: 0;
+         text-align: center;
+         border: none;
+         font-weight: 800;
+      }
+
+      .popup-head {
+         background: #0094bb none repeat scroll 0 0 !important;
+         color: #fff;
+         display: table;
+         width: 100%;
+         padding: 4px 10px 3px 10px;
+      }
+
+      aside {
+
+         bottom: 0;
+         display: none;
+         position: fixed;
+         right: 0px;
+         width: 300px;
+         font-family: 'Open Sans', sans-serif;
+      }
+
+      @media screen and (max-width: 767px) {
+         .contact-opener {
+            left: -123px;
+            top: 125px;
+            padding: 6px 50px;
+            font-size: 15px;
+         }
+
+         .floating-form {
+            top: 42%;
+         }
+
+         aside {
+
+            bottom: 0;
+            display: none;
+            position: fixed;
+            right: 0px;
+            width: 250px;
+            font-family: 'Open Sans', sans-serif;
+         }
+
+         .chat-img-width {
+            width: 90px;
+            margin-left: -80px;
+         }
+      }
+   </style>
+
 
 </head>
 
 <body>
+   <!-- oncontextmenu="return false" onkeydown="return false;" onmousedown="return false;" -->
 
-    <!--/header-->
-    <header>
-        <div class="top-bar_sub container-fluid">
-            <div class="top-forms text-left mt-3">
-                <!--/nav-->
-                <div class="header_top">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <button class="navbar-toggler navbar-toggler-right mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
+   <div class="floating-form" id="planofloat" style="right: -261px;">
+      <div class="contact-opener" style="display: block;">Quick Inquiry</div>
+      <div id="contact_body">
 
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mx-auto">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">Home
-									<span class="sr-only">(current)</span>
-								</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link scroll" href="#about">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link scroll" href="#services">Services</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link scroll" href="#team">Team</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link scroll" href="#testimonials">Testimonials</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link scroll" href="#pricing">Pricing</a>
-                                </li>
-                                <!-- <li class="nav-item">
-								<a class="nav-link scroll" href="#appointment">Appointment</a>
-							</li> -->
-                                <li class="nav-item">
-                                    <a class="nav-link scroll" href="#contact">Contact</a>
-                                </li>
+         <p><b>Nerul Sector 19A</b></p>
+         <p class="small" title="Landline">
+            <i class="fa fa-phone fa-lg" aria-hidden="true"></i>
+            +91 080703 34500
+         </p>
 
-                            </ul>
-                        </div>
+         <p><b>Nerul Sector 17</b></p>
+         <p class="small" title="Landline">
+            <i class="fa fa-phone fa-lg" aria-hidden="true"></i>
+            +91 099870 89898
+         </p>
 
-                    </nav>
-                </div>
-                <!--//nav-->
+         <p><b>Belapur Sector 6</b></p>
+         <p class="small" title="Landline">
+            <i class="fa fa-phone fa-lg" aria-hidden="true"></i>
+            +91 099876 88883
+         </p>
+
+         <p class="small" title="Email">
+            <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
+            makmesalon@gmail.com
+         </p>
+
+      </div>
+   </div>
+
+
+   <div class="loader">
+      <div class="loader-inner">
+         <img src="images/loading-logo.png" alt="LOGO" class="logo-img" />
+         <img src="images/loader.svg" alt="Loader GIF" class="loader-img" />
+      </div>
+   </div>
+   <!--BackgroundLines Start-->
+   <div class="page-wrapper">
+      <div class="page-line">
+         <div class="container">
+            <div class="page-line__inner row">
+               <div class="page-col col-lg-6"></div>
+               <div class="page-col col-lg-6"></div>
             </div>
-            <div class="logo text-center">
-                <a class="navbar-brand" href="index.html">
-                    <img src="images/logo.jpg" class="image-logo"><img src="images/logo3.png" class="image-logo3">
-                    <span style="margin-left: 9px;"> Hair Salon</span></a>
-            </div>
-        </div>
-    </header>
+         </div>
+      </div>
+   </div>
+   <!--BackgroundLines End-->
+   <!-- Navigation Start -->
+   <nav class="navbar navbar-expand-md navbar-light  sticky-top" id="nav-main">
+      <div class="container">
+         <a href="index.html" class="navbar-brand">
+            <img src="images/logo-mm.png" alt="LOGO" class="img-fluid" width="100%" />
+         </a>
+         <button class="navbar-toggler" data-target="#navigation" data-control="navigation" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navigation">
+            <ul class="nav navbar-nav pull-lg-right ml-auto">
+               <li class="nav-item">
+                  <a href="#swipe" class="nav-link  page-scroll">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a href="#service" class="nav-link  page-scroll">Services</a>
+               </li>
+               <li class="nav-item">
+                  <a href="#price" class="nav-link page-scroll">Prices</a>
+               </li>
 
-    <!-- banner -->
-    <section class="banner" id="home">
-        <div class="callbacks_container">
-            <ul class="rslides" id="slider3">
-                <li>
-                    <div class="slider-info bg1">
-                        <div class="bs-slider-overlay">
-                            <div class="banner-text container">
-                                <h5 class="tag text-left mb-3 text-uppercase">We are professional </h5>
-                                <h1 class="movetxt text-left agile-title text-uppercase">The Best Place For </h1>
-                                <h2 class="movetxt text-left mb-3 agile-title text-uppercase">Hair Salon </h2>
-                                <a class="bt mt-4 text-capitalize scroll gallery" href="www.google.com" role="button"> See our Work
-							<i class="fas fa-cut"></i>
-						</a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="slider-info bg2">
-                        <div class="bs-slider-overlay">
-                            <div class="banner-text container">
-                                <h5 class="tag text-left mb-3 text-uppercase">We are unique</h5>
-                                <h4 class="movetxt text-left agile-title text-uppercase">Your Hair Beauty </h4>
-                                <h4 class="movetxt text-left mb-3 agile-title text-uppercase">Our Duty </h4>
-                                <a class="bt mt-4 text-capitalize scroll gallery" href="#about" role="button"> See our Work
-							<i class="fas fa-cut"></i>
-						</a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="slider-info bg3">
-                        <div class="bs-slider-overlay">
-                            <div class="banner-text container">
-                                <h5 class="tag text-left mb-3 text-uppercase">Your style our</h5>
-                                <h4 class="movetxt text-left agile-title text-uppercase">Your style is our </h4>
-                                <h4 class="movetxt text-left mb-3 agile-title text-uppercase">Responsibility</h4>
+               <!--  <li class="nav-item">
+                     <a href="#testimonial" class="nav-link page-scroll">Testimonials</a>
+                  </li>-->
+               <!-- <li class="nav-item  sub-menu-parent">
+                     <a class="nav-link page-scroll drop-down" href="#blog">Blog</a>
+                     <ul class="sub-menu">
+                        <li><a href="blog.html" class="page-scroll">Blog</a></li>
+                        <li><a href="blog-detail.html" class="page-scroll">Blog Detail</a></li>
+                     </ul>
+                  </li> -->
 
-                                <a class="bt mt-4 text-capitalize scroll gallery" href="#about" role="button"> See our Work
-							<i class="fas fa-cut"></i>
-						</a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="slider-info bg4">
-                        <div class="bs-slider-overlay">
-                            <div class="banner-text container">
-                                <h5 class="tag text-left mb-3 text-uppercase">you name it</h5>
-                                <h4 class="movetxt text-left agile-title text-uppercase"> you name it </h4>
-                                <h4 class="movetxt text-left mb-3 agile-title text-uppercase">we do it </h4>
-                                <a class="bt mt-4 text-capitalize scroll gallery" href="#about" role="button"> See our Work
-							<i class="fas fa-cut"></i>
-						</a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
+               <li class="nav-item">
+                  <a href="offers.html" class="nav-link page-scroll">Offers</a>
+               </li>
+
+               <li class="nav-item">
+                  <a href="#contact" class="nav-link page-scroll">Inquiry</a>
+               </li>
+               <li class="nav-item">
+                  <a href="#home" class="nav-link  page-scroll">About Us</a>
+               </li>
+               <li class="nav-item">
+                  <a href="#leftside" class="nav-link  page-scroll">
+                     <div class="contact-icon">
+                        <i class="fa fa-phone" aria-hidden="true" style="color:#fff">+91 080703 34500</i>
+
+                     </div>
+
+                  </a>
+               </li>
             </ul>
-        </div>
-    </section>
-    <!-- //banner -->
-
-    <!-- About -->
-    <section class="about py-5" id="about">
-        <div class="container py-lg-3 py-2">
-            <div class="heading text-center">
-                <i class="fas fa-cut"></i>
-                <h3 class="heading mb-sm-5 mb-3 text-uppercase">About us</h3>
-            </div>
-            <div class="row about-grids">
-                <div class="col-lg-8 about-grid1 mb-lg-0 mb-5">
-                    <h3 class="text-uppercase">Makme Salon for Men, Women And Children</h3>
-                    <p class="my-lg-4 my-3">We offer excellent talent, great products for your hair and skin needs, as well as an atmosphere that is tranquil, enjoyable and relaxing. We want to be your home for all your skin and hair needs. We believe that you are the most important
-                        factor in our business and it is our desire to identify the unique characteristics of your hair and face to develop a signature look just for you. Makme Salon is a place where you can get a professional, high quality hair & beauty
-                        service and have a fabulous time doing so. Its an experience and my hope is that Makme Salon is a place where people will come year after year, month after month because they truly had a great experience. At Makme Salon we not
-                        only give exceptional services but we love educating our clients, selling quality natural, organic, & chemical free products and gifts. Having fun, turning heads, making memories and growing within our community and the beauty
-                        industry is our goal!</p>
-                    <a class="bt text-capitalize gallery" href="#" role="button"> See our work
-					<i class="fas fa-cut"></i>
-				</a>
-                </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="about-grid3 p-5">
-                        <h3>Expert in Styling</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- //About -->
-
-    <!-- services -->
-    <section class="services py-5" id="services">
-        <div class="container-fluid">
-            <div class="heading text-center">
-                <i class="fas fa-cut"></i>
-                <h3 class="heading mb-sm-5 mb-3 text-uppercase">What We Do</h3>
-            </div>
-            <div class="row service-grids">
-                <div class="col-lg-2 col-sm-6 col-12 serviceimage1">
-
-                </div>
-                <div class="col-lg-2 col-sm-6 col-12 py-5 px-4 servicetext">
-                    <h4>Hair cut</h4>
-                    <p class="my-3">Your hair is part of you. And we care for it like it's a part of us. Real haircuts for real people, by real people.</p>
-                    <a class="bt text-capitalize gallery" href="#" role="button"> See our Work
-					<i class="fas fa-cut"></i>
-				</a>
-                </div>
-                <div class="col-lg-2 col-sm-6 col-12 serviceimage2">
-
-                </div>
-                <div class="col-lg-2 col-sm-6 col-12 py-5 px-4 servicetext">
-                    <h4>Hairt Treatment</h4>
-                    <p class="my-3">We offer a wide range of hair treatment option to keep your hair healthy.</p>
-                    <a class="bt text-capitalize gallery" href="#" role="button"> See our Work
-					<i class="fas fa-cut"></i>
-				</a>
-                </div>
-                <div class="col-lg-2 col-sm-6 col-12 serviceimage3">
-
-                </div>
-                <div class="col-lg-2 col-sm-6 col-12 py-5 px-4 servicetext">
-                    <h4>Hair Coloring</h4>
-                    <p class="my-3">Invest in your hair, it is the crown you never take off.We will provide the best of hair colors that suits your hair type.</p>
-                    <a class="bt text-capitalize gallery" href="#" role="button"> See our Work
-					<i class="fas fa-cut"></i>
-				</a>
-                </div>
-                <div class="col-lg-2 col-sm-6 col-12 py-5 px-4 servicetext">
-                    <h4>Skin Care</h4>
-                    <p class="my-3">Skin is one the most gentle part our body. That is why it needs a lot of attention.We will provide the best skin care routine that suits your skin type.</p>
-                    <a class="bt text-capitalize gallery" href="#" role="button"> See our Work
-					<i class="fas fa-cut"></i>
-				</a>
-                </div>
-                <div class="col-lg-2 col-sm-6 col-12 serviceimage4">
-
-                </div>
-                <div class="col-lg-2 col-sm-6 col-12 py-5 px-4 servicetext">
-                    <h4>Therapy & Makeup</h4>
-                    <p class="my-3">We will provide the makup options that ranges party makeup to bridal makeup.</p>
-                    <a class="bt text-capitalize gallery" href="#" role="button"> See our Work
-					<i class="fas fa-cut"></i>
-				</a>
-                </div>
-                <div class="col-lg-2 col-sm-6 col-12 serviceimage5">
-
-                </div>
-                <div class="col-lg-2 col-sm-6 col-12 py-5 px-4 servicetext">
-                    <h4>Basic Care</h4>
-                    <p class="my-3">we offer a wide range of styling options from hairstyles, hair treatment, Skin care to pedicure, It depends on what you need.</p>
-                    <a class="bt text-capitalize gallery" href="#" role="button"> See our Work
-					<i class="fas fa-cut"></i>
-				</a>
-                </div>
-                <div class="col-lg-2 col-sm-6 col-12 serviceimage6">
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- //services -->
-
-    <!-- Team -->
-    <section class="barbers py-5" id="team">
-        <div class="container py-lg-3 py-2">
-            <div class="heading text-center">
-                <i class="fas fa-cut"></i>
-                <h3 class="heading mb-sm-5 mb-3 text-uppercase">Our Squad</h3>
-            </div>
-            <div class="row barber-grids">
-                <div class="col-lg-3 col-sm-6 mb-lg-0 mb-5 text-center">
-                    <div class="barber-grid1">
-                        <img src="images/teammember1.jpg" class="img-fluid" alt="" />
-                    </div>
-                    <h4 class="mt-3">Sarfaraj Salmani</h4>
-                    <p>CREATIVE STYLE DIRECTOR</p>
-
-                </div>
-                <div class="col-lg-3 col-sm-6 mb-lg-0 mb-5 text-center">
-                    <div class="barber-grid1">
-                        <img src="images/team_member2.jpg" class="img-fluid" alt="" />
-                    </div>
-                    <h4 class="mt-3">Hashim</h4>
-                    <p>SENIOR STYLIST</p>
-
-                </div>
-                <div class="col-lg-3 col-sm-6 mb-md-0 mb-5 text-center">
-                    <div class="barber-grid1">
-                        <img src="images/team_member3.jpg" class="img-fluid" alt="" />
-                    </div>
-                    <h4 class="mt-3">Nishad</h4>
-                    <p>MAKEUP ARTIST</p>
-
-                </div>
-                <div class="col-lg-3 col-sm-6 text-center">
-                    <div class="barber-grid1">
-                        <img src="images/team_member4.jpg" class="img-fluid" alt="" />
-                    </div>
-                    <h4 class="mt-3">Kera</h4>
-                    <p>SUPER CUTE CAT</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- //Team -->
-
-    <!-- testimonials -->
-    <div class="testimonials" id="testimonials">
-        <div class="test_agile_info py-5">
-            <div class="container py-lg-3">
-                <div class="heading text-center">
-                    <i class="fas fa-cut"></i>
-                    <h3 class="heading mb-sm-5 mb-3 text-uppercase">Customers Words</h3>
-                </div>
-                <ul id="flexiselDemo1">
-                    <li>
-                        <div class="wthree_testimonials_grid_main">
-                            <div class="wthree_testimonials_grid">
-                                <p>This place was worth, have done total make over to my hair with haircut, hair colour and smoothbond ,I'am in love with the results.</p>
-                                <h5>Sana Nadeem Kazi</h5>
-                                <div class="wthree_testimonials_grid_pos">
-                                    <img src="images/c1.jpg" alt=" " class="img-responsive" />
-                                </div>
-                            </div>
-
+         </div>
+      </div>
+   </nav>
+   <!--Navigation End -->
+   <!-- Hero Section Start  -->
+   <div class="hero-section" id="swipe">
+      <!-- Hero Slider Start  -->
+      <div class="header hero-slider">
+         <!-- Swiper Container Start  -->
+         <div class="swiper-container">
+            <!-- Swiper Wrapper Start  -->
+            <div class="swiper-wrapper">
+               <!--
+                  <div class="swiper-slide">
+                     <div class="slide-inner bg-image" style="background:url('images/banner/banner6.jpg');">
+                        <div class="container">
+                           <div class="carousel-detail d-flex align-items-center " data-swiper-parallax="-900">
+                              <div class="carousel-detail-animate" >
+                                 <span class="down-up" style="color: yellow;">Makme Salon Best Team</span>
+                              </div>
+                           </div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="wthree_testimonials_grid_main">
-                            <div class="wthree_testimonials_grid">
-                                <p>Did smoothening from amazing Makme salon which is very very good, The stylist there are very good.</p>
-                                <h5>Ankita Mukherjee</h5>
-                                <div class="wthree_testimonials_grid_pos">
-                                    <img src="images/c2.jpg" alt=" " class="img-responsive" />
-                                </div>
-                            </div>
+                        
+                     </div>
+                    
+                  </div>
+               -->
+               <div class="swiper-slide">
+                  <div class="slide-inner bg-image" style="background:url('images/banner/ban1.png');">
+                     <div class="container">
+                        <div class="carousel-detail d-flex align-items-center " data-swiper-parallax="-900">
+                           <div class="carousel-detail-animate">
 
+                           </div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="wthree_testimonials_grid_main">
-                            <div class="wthree_testimonials_grid">
-                                <p>Lai bhari sarfaraj bhai.. Ur salon is the best salon in navi mumbai.. Mere frnds ko bhut pasand aayi meri style</p>
-                                <h5>Abhishek Bhalerao</h5>
-                                <div class="wthree_testimonials_grid_pos">
-                                    <img src="images/c4.jpg" alt=" " class="img-responsive" />
-                                </div>
-                            </div>
+                     </div>
+                     <!-- end container -->
+                  </div>
+                  <!-- end slide-inner -->
+               </div>
 
+               <div class="swiper-slide">
+                  <div class="slide-inner bg-image" style="background:url('images/banner/ban2.png');">
+                     <div class="container">
+                        <div class="carousel-detail d-flex align-items-center " data-swiper-parallax="-900">
+                           <div class="carousel-detail-animate">
+                              <!--<span class="down-up" style="color: yellow;"></span>-->
+                           </div>
                         </div>
-                    </li>
-                </ul>
+                     </div>
+
+                  </div>
+
+               </div>
+
+               <!-- end swiper-slide -->
+               <div class="swiper-slide">
+                  <div class="slide-inner bg-image" style="background:url('images/banner/ban3.png');">
+                     <div class="container">
+                        <div class="carousel-detail d-flex align-items-center " data-swiper-parallax="-900">
+                           <div class="carousel-detail-animate">
+
+                           </div>
+                        </div>
+                     </div>
+                     <!-- end container -->
+                  </div>
+                  <!-- end slide-inner -->
+               </div>
+               <!-- end swiper-slide -->
+               <div class="swiper-slide">
+                  <div class="slide-inner bg-image" style="background:url('images/banner/ban4.png');">
+                     <div class="container">
+                        <div class="carousel-detail d-flex align-items-center " data-swiper-parallax="-900">
+                           <div class="carousel-detail-animate">
+
+                           </div>
+                        </div>
+                     </div>
+                     <!-- end container -->
+                  </div>
+                  <!-- end slide-inner -->
+               </div>
+               <!-- end swiper-slide -->
             </div>
-        </div>
-    </div>
-    <!-- //testimonials -->
-
-    <!-- pricing -->
-    <section class="py-5" id="pricing">
-        <div class="container">
-            <div class="heading text-center">
-                <i class="fas fa-cut"></i>
-                <h3 class="heading mb-sm-5 mb-3 text-uppercase">Our Pricing</h3>
+            <!-- Swiper Wrapper End  -->
+         </div>
+         <!-- Swiper Container End  -->
+      </div>
+      <!-- Hero Slider End  -->
+      <!--Hero Bottom Start-->
+      <div class="hero-bottom">
+         <div class="container">
+            <div class="hero-inner row">
+               <div
+                  class="hero-scroll d-flex align-items-center justify-content-center col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                  <span>Scroll down</span>
+                  <a href="#home" class="page-scroll d-flex justify-content-center align-items-center scroll">
+                     <img src="images/arrow-down.png" alt="Down Arrow" />
+                  </a>
+               </div>
+               <!--Hero Scroll End-->
+               <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 swiper-bg">
+                  <div class="swiper-pagination swiper-pagination-fraction"><span
+                        class="swiper-pagination-current">1</span> / <span class="swiper-pagination-total">3</span>
+                  </div>
+               </div>
+               <div
+                  class="hero-bottom-nav d-flex justify-content-between align-items-center col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                  <div class="slider-arrow d-flex w-20 justify-content-between">
+                     <div class="swiper-button-prev ">
+                        <img src="images/arrow-left.png" alt="Left Arrow" />
+                     </div>
+                     <div class="swiper-button-next ">
+                        <img src="images/arrow-right.png" alt="Right Arrow" />
+                     </div>
+                     <!-- end swiper-button-next -->
+                  </div>
+                  <ul class="hero-social social-icon icon-sm m-0 xs-text-center text-right d-flex">
+                     <li>
+                        <a href="https://www.facebook.com/makmesalon" target="_blank">
+                           <i class="fa fa-facebook fa-lg"></i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="https://twitter.com/makmesalon" target="_blank">
+                           <i class="fa fa-twitter fa-lg"></i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="https://www.instagram.com/makmesalon/" target="_blank">
+                           <i class="fa fa-instagram fa-lg"></i>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="https://www.youtube.com/channel/UCAuYVu2XioeHYtEEpAiWz1w" target="_blank">
+                           <i class="fa fa-youtube fa-lg"></i>
+                        </a>
+                     </li>
+                  </ul>
+                  <!--Hero Social End-->
+               </div>
             </div>
-            <!--/tabs-->
-            <div class="responsive_tabs">
-                <div id="horizontalTab">
-                    <ul class="resp-tabs-list">
-                        <li>Hair Cut & Styling</li>
-                        <li>Hair Color</li>
-                        <li>Grooming</li>
-                        <li>Basic Care</li>
-                    </ul>
-                    <div class="resp-tabs-container">
-                        <!--/tab_one-->
-                        <div class="tab1">
-                            <div class="tab-info">
-                                <div class="row tab-grids">
-                                    <div class="col-md-6">
-                                        <h3>Classic Hair Cut (Men) <span class="price">200₹</span></h3>
-                                        <br>
-                                        <h3>Shaving <span class="price"> 100₹</span></h3>
-                                        <br>
-                                        <h3>Beard Trimming <span class="price"> 100₹</span></h3>
+            <!--Hero Inner End-->
+         </div>
+         <!--Container End-->
+      </div>
+      <!--Hero Bottom End-->
+   </div>
+   <!-- Hero Section End  -->
+   <!--Home Area Start -->
+   <div class="Home" id="home">
+      <!--Home Main Container Start -->
+      <div class="home-main-container">
+         <div class="container">
 
-                                    </div>
-                                    <div class="col-md-6 mt-md-0 mt-3">
-                                        <h3>CREATIVE CUT(STYLIST)(Women)<span class="price">600₹</span></h3><br>
-                                        <h3>Hair Cut
-                                            < 5 years (Girls)<span class="price"> 350₹</span></h3><br>
-                                        <h3> <span class="price"> </span>
-                                        </h3>
-
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!--//tab_one-->
-                        <!--/tab_two-->
-                        <div class="tab2">
-
-                            <div class="tab-info">
-                                <div class="row tab-grids">
-                                    <div class="col-md-6">
-                                        <h3>Global Basic S/L (Men) <span class="price">700 / 900₹</span></h3>
-                                        <br>
-                                        <h3>Global Fashion S/L (Men) <span class="price"> 850 / 1250₹</span></h3>
-                                        <br>
-                                        <h3>Beard <span class="price"> 350₹</span></h3>
-
-                                    </div>
-                                    <div class="col-md-6 mt-md-0 mt-3">
-                                        <h3>Global - Short (Women) <span class="price"> 2000₹</span></h3><br>
-                                        <h3>Global - Medium (Women)<span class="price"> 3500₹</span></h3><br>
-                                        <h3>Global - Long (Women)<span class="price"> 4500₹</span></h3>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--//tab_two-->
-                        <!--/tab_three-->
-                        <div class="tab3">
-
-                            <div class="tab-info">
-                                <div class="row tab-grids">
-                                    <div class="col-md-6">
-                                        <h3>Eyebrow <span class="price">30₹</span></h3>
-                                        <br>
-                                        <h3>Upper Lip/Chin <span class="price"> 30₹</span></h3>
-                                        <br>
-                                        <h3>Full Face <span class="price"> 200₹</span></h3>
-
-                                    </div>
-                                    <div class="col-md-6 mt-md-0 mt-3">
-                                        <h3>Forehead<span class="price">30₹</span></h3><br>
-                                        <h3>D tab Pack<span class="price"> 800₹</span></h3><br>
-                                        <h3>Face Wax<span class="price"> 200/350₹</span></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--//tab_three-->
-                        <!--/tab_four-->
-                        <div class="tab4">
-
-                            <div class="tab-info">
-                                <div class="row tab-grids">
-                                    <div class="col-md-6">
-                                        <h3>Basic Pedicure <span class="price">450₹</span></h3>
-                                        <br>
-                                        <h3>Basic Manicure <span class="price"> 350₹</span></h3>
-                                        <br>
-                                        <h3>Foot Massage <span class="price"> 500₹</span></h3>
-
-                                    </div>
-                                    <div class="col-md-6 mt-md-0 mt-3">
-                                        <h3>French Pedicure <span class="price"> 500₹ </span></h3><br>
-                                        <h3>French Manicure <span class="price"> 400₹</span></h3><br>
-                                        <h3>Nail Paint Change <span class="price"> 100₹</span></h3>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--//tab_four-->
-                        <div class="clearfix"> </div>
-                    </div>
-                </div>
-            </div>
-            <!--//tabs-->
-            <div class="clearfix"> </div>
-        </div>
-    </section>
-    <!-- //pricing -->
-    <!-- see price list begin-->
-    <section class="newsletter text-center py-3">
-        <div class="container py-lg-3">
-            <div class="subscribe_inner">
-
-                <h4 class="mb-4"><a href="pricelist.html">See full price list</a></h4>
-
-
-
-            </div>
-
-        </div>
-    </section>
-    <!-- see price list end-->
-    <!-- contact map and address -->
-    <section class="contact py-5" id="contact">
-        <div class="container">
-            <div class="heading text-center">
-                <i class="fas fa-cut"></i>
-                <h3 class="heading mb-sm-5 mb-3 text-uppercase">Locate Us</h3>
-            </div>
-            <div class="contact-main-grid">
-                <div class="contact-map">
-                </div>
-                <div class="contact-info">
-                    <div>
-                        <h4 class="mb-3">1. Address</h4>
-                        <p><span class="fas fa-map mr-2"></span>
-                            <a href="https://goo.gl/maps/CiMrwmuf2Az">
-						Basveshewar Maharaj Marg, 
-					</a>
+            <!--Home Left Start -->
+            <!--<div class="home-left col-md-6" >
+                     <div class="hm-left-img" >
+                        <img src="images/team.jpg" alt="Home Image"/>
+                     </div>
+                  </div>
+               -->
+            <!--Home Left End -->
+            <!--Home Right Start -->
+            <div class="home-inner row" style="display: flex; justify-content:center;width:100%">
+               <div>
+                  <div class="home-right-inner">
+                     <div class="section-title">
+                        <h2 class="title">
+                           About Us
+                        </h2>
+                     </div>
+                     <div class="home-description">
+                        <p>
+                           We offer excellent talent, great products for your hair and skin needs, as well as an
+                           atmosphere that is tranquil, enjoyable and relaxing. We want to be your home for all your
+                           skin and hair needs. We believe that you are the most important factor in our business and it
+                           is our desire to identify the unique characteristics of your hair and face.
                         </p>
-                        <p>Sector 19A, Nerul, Navi Mumbai.</p>
-                        <p><span class="fas fa-phone mr-2"></span>
-                            <a href="tel:+919987089898"> +91 9987 0898 98</a>
-                        </p>
-                        <p><span class="fas fa-envelope mr-2"></span> <a href="mailto:makmesalon@gmail.com"> makmesalon@gmail.com</a> </p>
-                    </div>
-                    <div>
-                        <h4 class="mb-3">2. Address</h4>
-                        <p><span class="fas fa-map mr-2"></span>
-                            <a href="https://goo.gl/maps/2o8sAss6XFK2">
-							Gurudwara Marg, Nandanvan Society, 
-						</a>
-                        </p>
-                        <p>Sector 17, Nerul, Navi Mumbai.</p>
-                        <p><span class="fas fa-phone mr-2"></span>
-                            <a href="tel:+918070334500">+91 8070 3345 00</a>
-                        </p>
-                        <p><span class="fas fa-envelope mr-2"></span> <a href="mailto:makmesalon@gmail.com"> makmesalon@gmail.com</a> </p>
-                    </div>
-                    <div>
-                        <h4 class="mb-3">3. Address</h4>
-                        <p><span class="fas fa-map mr-2"></span>Shop no.-5, Sea Breeze CHS, Dharshana Society</p>
-                        <p>Sector 16, Nerul, Navi Mumbai</p>
-                        <p><span class="fas fa-phone mr-2"></span><a href="tel:+918070334500">+91 9326 5054 55</a> </p>
-                        <p><span class="fas fa-envelope mr-2"></span> <a href="mailto:makmesalon@gmail.com"> makmesalon@gmail.com</a> </p>
-                    </div>
-                    <div class="">
-                        <h4 class="mb-3">Opening Hours</h4>
-                        <p><span class="fas fa-clock mr-2"></span> Monday – Friday : 9am - 6pm</p>
-                        <p><span class="fas fa-clock mr-2"></span> Saturday and Sunday : 10am - 4pm</p>
-                    </div>
-                </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </section>
-    <!-- contact map and address -->
+            <!--Home Right End -->
 
-    <!-- Appointment -->
-    <section class="appointment" id="appointment">
-        <div class="test_agile_info py-5">
-            <div class="container py-lg-3">
-                <div class="heading text-center">
-                    <i class="fas fa-cut"></i>
-                    <h3 class="heading mb-sm-5 mb-3 text-uppercase">Email Us Your Query</h3>
-                </div>
-                <div class="contact_grid_right">
-                    <form action="#" method="post">
-                        <div class="contact_left_grid">
-                            <div class="form-group">
-                                <input class="form-control" type="text" name="name" placeholder="Your Name" required="">
-                            </div>
-                            <div class="form-group">
-                                <input class="form-control" type="email" name="email" placeholder="Your Email" required="">
-                            </div>
-                            <div class="form-group">
-                                <input class="form-control" type="text" name="tel" placeholder="Phone Number" required="">
-                            </div>
+         </div>
+         <!-- Container End -->
+      </div>
+      <!--Home Main Container End -->
+   </div>
+   <!-- Home Area End -->
+   <!--Services Area Start-->
+   <div class="service" id="service">
+      <!--BackgroundLines Start-->
+      <div class="page-wrapper">
+         <div class="page-line page-line-dark">
+            <div class="container">
+               <div class="page-line__inner page-inner-dark row">
+                  <div class="page-col page-col-dark col-lg-6"></div>
+                  <div class="page-col page-col-dark col-lg-6"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--BackgroundLines Start-->
+      <div class="section-title">
+         <h2 class="title text-center text-white">
+            WHAT WE DO
+         </h2>
+      </div>
+      <!--Slider Start-->
+      <div class="slider">
+         <!--Slider Div Start-->
+         <div class="slider-div d-flex justify-content-between align-items-center">
+            <div class="slider-div-details">
+               <span>01</span>
+               <h6>HAIR CUT</h6>
+               <div class="service-description">
+                  <p>Your hair is part of you. And we care for it like it's a part of us. Real haircuts for real people,
+                     by real people.</p>
+               </div>
+            </div>
+            <div class="img-box d-flex justify-content-end align-items-center">
+               <img src="images/slider-img1.jpg" alt="Slider Image" />
+            </div>
+         </div>
+         <!--Slider Div End-->
+         <!--Slider Div Start-->
+         <div class="slider-div d-flex justify-content-between align-items-center">
+            <div class="slider-div-details">
+               <span>02</span>
+               <h6>HAIR TREATMENT</h6>
+               <div class="service-description">
+                  <p>We offer a wide range of hair treatment option to keep your hair healthy.</p>
+               </div>
+            </div>
+            <div class="img-box d-flex justify-content-end align-items-center">
+               <img src="images/slider-img2.jpg" alt="Slider Image" />
+            </div>
+         </div>
+         <!--Slider Div End-->
+         <!--Slider Div Start-->
+         <div class="slider-div d-flex justify-content-between align-items-center">
+            <div class="slider-div-details">
+               <span>03</span>
+               <h6>HAIR COLORING</h6>
+               <div class="service-description">
+                  <p>Invest in your hair, it is the crown you never take off.We will provide the best of hair colors
+                     that suits your hair type.</p>
+               </div>
+            </div>
+            <div class="img-box d-flex justify-content-end align-items-center">
+               <img src="images/hair_color.jpg" alt="Slider Image" />
+            </div>
+         </div>
+         <!--Slider Div End-->
+         <!--Slider Div Start-->
+         <div class="slider-div d-flex justify-content-between align-items-center">
+            <div class="slider-div-details">
+               <span>04</span>
+               <h6>SKIN CARE</h6>
+               <div class="service-description">
+                  <p>Skin is one the most gentle part our body. That is why it needs a lot of attention.We will provide
+                     the best skin care routine that suits your skin type.</p>
+               </div>
+            </div>
+            <div class="img-box d-flex justify-content-end align-items-center">
+               <img src="images/slider-img4.jpg" alt="Slider Image" />
+            </div>
+         </div>
+         <!--Slider Div End-->
+         <!--Slider Div Start-->
+         <div class="slider-div d-flex justify-content-between align-items-center">
+            <div class="slider-div-details">
+               <span>05</span>
+               <h6>THERAPY & MAKEUP</h6>
+               <div class="service-description">
+                  <p>We will provide the makup options that ranges party makeup to bridal makeup.</p>
+               </div>
+            </div>
+            <div class="img-box d-flex justify-content-end align-items-center">
+               <img src="images/therapy.jpg" alt="Slider Image" />
+            </div>
+         </div>
+         <!--Slider Div End-->
+         <!--Slider Div Start-->
+         <div class="slider-div d-flex justify-content-between align-items-center">
+            <div class="slider-div-details">
+               <span>06</span>
+               <h6>BASIC CARE</h6>
+               <div class="service-description">
+                  <p>we offer a wide range of styling options from hairstyles, hair treatment, Skin care to pedicure, It
+                     depends on what you need.</p>
+               </div>
+            </div>
+            <div class="img-box d-flex justify-content-end align-items-center">
+               <img src="images/hair_treat.jpg" alt="Slider Image" />
+            </div>
+         </div>
+         <!--Slider Div End-->
+      </div>
+      <!--Slider End-->
+      <div class="container">
+         <div class="slick-arrows">
+            <button class='slick-arrow-left '><img src='images/arrow-left.png' alt="Arrow Left" /></button>
+            <button class='slick-arrow-right'><img src='images/arrow-right.png' alt="Arrow Right" /></button>
+         </div>
+      </div>
+   </div>
+   <!-- Services Area End -->
+   <!--Price Area Start-->
+   <section class="our-barbers barbers-page" id="price">
+      <div class="container">
+         <div class="row justify-content-center">
+            <div class="col-lg-12 col-md-12">
+               <div class="section-title">
+                  <h2 class="title text-center">
+                     Prices
+                  </h2>
+               </div>
+            </div>
+         </div>
 
-                            <div class="form-group">
-                                <textarea id="message" placeholder="Your Message Here"></textarea>
-                            </div>
-                            <button id="btn">
-							<a href="mailto:makmesalon@gmail.com?subject=Enquiry&amp;body=hello" id="link" name="link" style="display: block;">
-								HIT IT
-							</a>
-						</button>
+
+         <div class="row">
+            <div class="col-md-12">
+               <div class="sky-tabs sky-tabs-pos-top-left sky-tabs-anim-flip sky-tabs-response-to-icons">
+                  <input type="radio" name="sky-tabs" checked id="sky-tab1" class="sky-tab-content-1">
+                  <label for="sky-tab1"><span><span><i class="fa fa-cut"></i>&nbsp;Haircut & Style</span></span></label>
+
+                  <input type="radio" name="sky-tabs" id="sky-tab2" class="sky-tab-content-2">
+                  <label for="sky-tab2"><span><span><i class="fa fa-paint-brush"></i>&nbsp;Pack</span></span></label>
+
+                  <input type="radio" name="sky-tabs" id="sky-tab3" class="sky-tab-content-3">
+                  <label for="sky-tab3"><span><span><img src="images/icon2.png" alt="">&nbsp;Skin & Basic
+                           Care</span></span></label>
+
+                  <input type="radio" name="sky-tabs" id="sky-tab4" class="sky-tab-content-4">
+                  <label for="sky-tab4"><span><span><img src="images/icon3.png" alt="">&nbsp;Nail &
+                           Beyound</span></span></label>
+
+                  <input type="radio" name="sky-tabs" id="sky-tab5" class="sky-tab-content-5">
+                  <label for="sky-tab5"><span><span><img src="images/icon4.png"
+                              alt="">&nbsp;Treatment</span></span></label>
+
+                  <input type="radio" name="sky-tabs" id="sky-tab7" class="sky-tab-content-7">
+                  <label for="sky-tab7"><span><span><i class="icon-globe"></i>Therapies</span></span></label>
+
+                  <input type="radio" name="sky-tabs" id="sky-tab6" class="sky-tab-content-6">
+                  <label for="sky-tab6"><span><span><i class="icon-globe"></i>Grooming and Waxing</span></span></label>
+
+                  <label class="switcher"><span><span><a href="#"><i
+                                 class="icon-reorder"></i>Tabs</a></span></span></label>
+
+                  <ul>
+                     <li class="sky-tab-content-1">
+                        <img src="images/up/4.png" alt="">
+                     </li>
+
+                     <li class="sky-tab-content-2">
+                        <img src="images/up/3.png" alt="">
+                     </li>
+
+                     <li class="sky-tab-content-3">
+                        <img src="images/up/7.png" alt="">
+                     </li>
+
+                     <li class="sky-tab-content-4">
+                        <img src="images/up/1.png" alt="">
+                     </li>
+
+                     <li class="sky-tab-content-5">
+                        <img src="images/up/6.png" alt="">
+                     </li>
+                     <li class="sky-tab-content-6">
+                        <img src="images/up/2.png" alt="">
+                     </li>
 
 
+
+
+                     <li class="sky-tab-content-7">
+                        <img src="images/up/5.png" alt="">
+                     </li>
+
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--Price Area End-->
+   <!--Our Barbers(Team) Area Start-->
+   <div class="our-barbers barbers-page" id="expert">
+      <div class="container">
+         <div class="row justify-content-center">
+            <div class="col-lg-12 col-md-12">
+               <div class="section-title">
+                  <h2 class="title text-center">
+                     Our Experts
+                  </h2>
+               </div>
+            </div>
+         </div>
+         <div class="row team-wrapper">
+            <div class="col-lg-3 col-md-6 ">
+               <!-- Team Start-->
+               <div class="barbers">
+                  <div class="top-image">
+                     <div class="team-img-box">
+                        <div class="img" style="background:url(assets/img/team/sarfaraj.jpg);">
+                           <img src="assets/img/team/sarfaraj.jpg" alt="Team Image" />
                         </div>
-                    </form>
-                </div>
+                        <div class="team-overlay">
+                           <div class="team-zoom">
+                              <img src="images/zoom.png" alt="Team Zoom" />
+                           </div>
+                        </div>
+                        <div class="modal-deatil">
+                           <div class="content">
+                              <h3 class="pop-details-head">SARFARAJ</h3>
+                              <div>
+                                 <h4>(Creative Style Director)</h4>
+                                 <p>Finalist of All India Hairdressing Competition (TIGI Backstage Heroes)</p>
+                                 <p>Sarfaraj Started His Hairdressing Career When He Was Just 11 Year Old at His Native
+                                    Place Haridwar, He Learned The Basic of Hairdressing From His Father Mr. Dilshad an
+                                    Excellent Hair Artist, </p>
+                                 <p>In 2009, He Came to Mumbai to Train Himself Into The Science Behind The Hairdressing
+                                    and Gained The Expertise in Hair Over The Years By Working and Training With Various
+                                    Well Known Salon and Companies Like Loreal Professional,TIGI & Rusk To Name A few,
+                                    Also Travelled To Many Countries & Still Keep Traveling To Keep Himself Up To Date
+                                    In The World Of International Hairdressing, Currently He is Settled in Navi Mumbai
+                                    With Makme Salons.</p>
+                                 <p>His Expertise in Trend Forming Hair and Trendy Hairstyles Manage to Get Him a Very
+                                    Long and Impressive Client List.</p>
+
+
+                                 <ul class="hero-social social-icon icon-sm m-0 xs-text-center text-right d-flex">
+                                    <li>
+                                       <a href="https://www.facebook.com/makmesalon" target="_blank">
+                                          <i class="fa fa-facebook fa-lg"></i>
+                                       </a>
+                                    </li>
+                                    <li>
+                                       <a href="https://twitter.com/makmesalon" target="_blank">
+                                          <i class="fa fa-twitter fa-lg"></i>
+                                       </a>
+                                    </li>
+                                    <li>
+                                       <a href="https://www.instagram.com/makmesalon/" target="_blank">
+                                          <i class="fa fa-instagram fa-lg"></i>
+                                       </a>
+                                    </li>
+                                    <li>
+                                       <a href="https://www.youtube.com/channel/UCAuYVu2XioeHYtEEpAiWz1w"
+                                          target="_blank">
+                                          <i class="fa fa-youtube fa-lg"></i>
+                                       </a>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="info text-center">
+                        <h4 class="title">
+                           SARFARAJ
+                        </h4>
+                        <p class="text">
+                           Creative Style Director
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <!-- Team End-->
             </div>
-        </div>
-    </section>
-    <!-- //Appointment -->
+            <div class="col-lg-3 col-md-6 ">
+               <!-- Team Start-->
+               <div class="barbers">
+                  <div class="top-image">
+                     <div class="team-img-box">
+                        <div class="img" style="background:url(assets/img/team/Hashim.jpg);">
+                           <img src="assets/img/team/Hashim.jpg" alt="Team Image" />
+                        </div>
+                        <div class="team-overlay">
+                           <div class="team-zoom">
+                              <img src="images/zoom.png" alt="Team Zoom" />
+                           </div>
+                        </div>
+                        <div class="modal-deatil">
+                           <div class="content">
+                              <h3 class="pop-details-head">HASHIM</h3>
+                              <div>
+                                 <h4>Senior Stylist</h4>
+                                 <p> A talk-active and dramatic personality made his forte into the world of
+                                    hairdressing in 2010, done his courses from l'oreal, his deep passion for
+                                    hairstyling which drives him to keep up the latest trends in the world of
+                                    hairstyling, his expertise in transforming even the most awful hair into a chick
+                                    made him develop a steady clientele in the salon.</p>
+                                 <ul class="hero-social social-icon icon-sm m-0 xs-text-center text-right d-flex">
 
-    <!-- footer section -->
-    <section class="newsletter text-center py-5">
-        <div class="container py-lg-3">
-            <div class="logo mb-5 text-center">
-                <a class="navbar-brand" href="index.html">
-                    <img src="images/logo.jpg" class="image-logo"><img src="images/logo3.png" class="image-logo3">
-                    <span style="margin-left: 9px;"> Hair Salon</span></a>
+                                    <li>
+                                       <a href="https://www.facebook.com/makmesalon" target="_blank">
+                                          <i class="fa fa-facebook fa-lg"></i>
+                                       </a>
+                                    </li>
+                                    <li>
+                                       <a href="https://twitter.com/makmesalon" target="_blank">
+                                          <i class="fa fa-twitter fa-lg"></i>
+                                       </a>
+                                    </li>
+                                    <li>
+                                       <a href="https://www.instagram.com/makmesalon/" target="_blank">
+                                          <i class="fa fa-instagram fa-lg"></i>
+                                       </a>
+                                    </li>
+                                    <li>
+                                       <a href="https://www.youtube.com/channel/UCAuYVu2XioeHYtEEpAiWz1w"
+                                          target="_blank">
+                                          <i class="fa fa-youtube fa-lg"></i>
+                                       </a>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="info text-center">
+                        <h4 class="title">
+                           HASHIM
+                        </h4>
+                        <p class="text">
+                           Senior Stylist
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <!-- Team End-->
             </div>
-            <div class="subscribe_inner">
-                <i class="fas fa-cut"></i>
-                <h4 class="mb-4">Subscribe Us</h4>
-                <p class="mb-4">Follow us on our Social media handles to get latest offers from Makme Salon. </p>
+            <div class="col-lg-3 col-md-6 ">
+               <!-- Team Start-->
+               <div class="barbers">
+                  <div class="top-image">
+                     <div class="team-img-box">
+                        <div class="img" style="background:url(assets/img/team/Nishad.jpg);">
+                           <img src="assets/img/team/Nishad.jpg" alt="Team Image" />
+                        </div>
+                        <div class="team-overlay">
+                           <div class="team-zoom">
+                              <img src="images/zoom.png" alt="Team Zoom" />
+                           </div>
+                        </div>
+                        <div class="modal-deatil">
+                           <div class="content">
+                              <h3 class="pop-details-head">NISHAD</h3>
+                              <div>
+                                 <h4>A very talented alrounder of Makme salon
+                                    Nail artist, Makeup artist, Hairdresser
+                                 </h4>
+                                 <p>Studied IT Engineering in Mumbai but couldn't find it much of interest, after
+                                    working in colorbar cosmetics as a Beauty Advisor.</p>
+                                 <p>He done his hairdressing course by L'oreal professional and been seasoning his
+                                    skills at Makme Salon since its inception in 2015.</p>
+                                 <p>With a specialized training in Nail Art and a knack of design and creativity makes
+                                    him one of the Best and most reliable for all your Nail Care needs.</p>
 
-                <div class="social mt-5">
-                    <ul class="d-flex mt-4 justify-content-center">
-                        <li class="mx-2"><a href="https://www.facebook.com/makmesalon"><span class="fab fa-facebook-f"></span></a></li>
-                        <li class="mx-2"><a href="https://twitter.com/makmesalon"><span class="fab fa-twitter"></span></a></li>
-                        <li class="mx-2"><a href="https://www.instagram.com/makmesalon/"><span class="fab fa-instagram"></span></a></li>
-                    </ul>
-                </div>
+                                 <ul class="hero-social social-icon icon-sm m-0 xs-text-center text-right d-flex">
+
+                                    <li>
+                                       <a href="https://www.facebook.com/makmesalon" target="_blank">
+                                          <i class="fa fa-facebook fa-lg"></i>
+                                       </a>
+                                    </li>
+                                    <li>
+                                       <a href="https://twitter.com/makmesalon" target="_blank">
+                                          <i class="fa fa-twitter fa-lg"></i>
+                                       </a>
+                                    </li>
+                                    <li>
+                                       <a href="https://www.instagram.com/makmesalon/" target="_blank">
+                                          <i class="fa fa-instagram fa-lg"></i>
+                                       </a>
+                                    </li>
+                                    <li>
+                                       <a href="https://www.youtube.com/channel/UCAuYVu2XioeHYtEEpAiWz1w"
+                                          target="_blank">
+                                          <i class="fa fa-youtube fa-lg"></i>
+                                       </a>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="info text-center">
+                        <h4 class="title">
+                           NISHAD
+                        </h4>
+                        <p class="text">
+                           A Very Talented Alrounder
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <!-- Team End-->
             </div>
-            <div class="copyright mt-5">
-                <p>© 2018 Barber. All Rights Reserved | Design by <a href="http://w3layouts.com/">W3layouts</a> </p>
+            <div class="col-lg-3 col-md-6 ">
+               <!-- Team Start-->
+               <div class="barbers">
+                  <div class="top-image">
+                     <div class="team-img-box">
+                        <div class="img" style="background:url(assets/img/team/RAJ.jpg);">
+                           <img src="assets/img/team/RAJ.jpg" alt="Team Image" />
+                        </div>
+                        <div class="team-overlay">
+                           <div class="team-zoom">
+                              <img src="images/zoom.png" alt="Team Zoom" />
+                           </div>
+                        </div>
+                        <div class="modal-deatil">
+                           <div class="content">
+                              <h3 class="pop-details-head">Raj</h3>
+                              <div>
+                                 <h4>Senior Stylist</h4>
+                                 <p>When we met with Raj, He had joined with 9 years of work experience bringing with
+                                    him a bouquet of possibilities to offer. A willing and persevering learner; he cuts,
+                                    colors & styles at the salon. Raj has a soft-spoken demeanor and a curious nature,
+                                    always wanting to update Himself with new styling techniques and growing with each
+                                    passing day!</p>
+                                 <ul class="hero-social social-icon icon-sm m-0 xs-text-center text-right d-flex">
+
+                                    <li>
+                                       <a href="https://www.facebook.com/makmesalon" target="_blank">
+                                          <i class="fa fa-facebook fa-lg"></i>
+                                       </a>
+                                    </li>
+                                    <li>
+                                       <a href="https://twitter.com/makmesalon" target="_blank">
+                                          <i class="fa fa-twitter fa-lg"></i>
+                                       </a>
+                                    </li>
+                                    <li>
+                                       <a href="https://www.instagram.com/makmesalon/" target="_blank">
+                                          <i class="fa fa-instagram fa-lg"></i>
+                                       </a>
+                                    </li>
+                                    <li>
+                                       <a href="https://www.youtube.com/channel/UCAuYVu2XioeHYtEEpAiWz1w"
+                                          target="_blank">
+                                          <i class="fa fa-youtube fa-lg"></i>
+                                       </a>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="info text-center">
+                        <h4 class="title">
+                           Raj
+                        </h4>
+                        <p class="text">
+                           Senior Stylist
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <!-- Team End-->
             </div>
-        </div>
-    </section>
-    <!-- //footer section -->
+         </div>
 
-    <!-- js-scripts -->
+         <div class="col-md-12 text-center">
+            <a href="the-team.html" class="btn btn-warning" style="color:#fff;">View More</a>
+         </div>
 
-    <!-- js -->
-    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <!-- Necessary-JavaScript-File-For-Bootstrap -->
-    <!-- //js -->
+      </div>
+      <!--Container End-->
+   </div>
+   <!--Our Barbers(Team) Area End-->
+   <!--Video Area Start-->
+   <div class="video">
+      <div class="overlay"></div>
+      <div class="container">
+         <div class="row justify-content-center align-items-center">
+            <div class="col-md-5 col-lg-5 ">
+               <!--Video Left Detail Start-->
+               <div class="video-left-detail">
+                  <h1 class="title text-white">
+                     The process behind the beauty you see.
+                  </h1>
+                  <p class="vdo-text">
+                     Guys Plz Subscribe to Our Channel For More Cool Hair Tranformation Videos & Much More. Hope You
+                     Guys Enjoyed The Video, Make Sure To Subscribe Our YouTube Channel.
+                  </p>
+               </div>
+               <!--Video Left Detail End-->
+            </div>
+            <div class="col-md-2 col-lg-2 text-center icon-effect icon-effect-1a">
+               <!--Video Center Start-->
+               <a class="video-icon icon d-flex justify-content-center align-items-center"
+                  href="//www.youtube.com/embed/Na0PoCX6lAI?badge=0&amp;autoplay=1&amp;html5=1" data-lity="">
+                  <div class="d-flex align-items-center justify-content-center ">
+                     <i class="fa fa-play"></i>
+                  </div>
+               </a>
+               <!--Video Center End-->
+            </div>
+            <div class="col-md-5 col-lg-5">
+               <!--Video Right Start-->
+               <div class="video-img">
+                  <img src="images/vdo.jpg" alt="Video Background" />
+               </div>
+               <!--Video Right End-->
+            </div>
+         </div>
+      </div>
+      <!--container End-->
+   </div>
+   <!--Video Area End-->
+   <!--Portfolio Area Start-->
+   <div id="portfolio" class="portfolio-main-container">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-12 col-md-12 text-center">
+               <div class="section-title">
+                  <h2 class="title text-center">
+                     Portfolio
+                  </h2>
+               </div>
+            </div>
+            <!--Portfolio Filter Start-->
+            <div class="col-lg-12 filter">
+               <ul>
+                  <li><a href="#" data-filter="*" class="active">All</a></li>
+                  <li><a href="#" data-filter=".makeup">Makeup</a></li>
+                  <li><a href="#" data-filter=".hair">Hair Style</a></li>
+                  <li><a href="#" data-filter=".eye">Eyebrow</a></li>
+               </ul>
+            </div>
+            <!--Portfolio Filter End-->
+            <!--Portfolio  Start-->
+            <div class="portfoliodiv">
+               <div class="col-25 makeup eye portfolio-card">
+                  <a class="#" href="images/port1.jpg" data-lity>
+                     <div class="portfolio-img">
+                        <img src="images/port1.jpg" alt="Portfolio" title="Portfolio" />
+                        <div class="portfolio-overlay">
+                           <div class="portfolio-zoom">
+                              <img src="images/zoom.png" alt="Zoom" />
+                           </div>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <div class="col-25 makeup hair portfolio-card">
+                  <a class="#" href="images/port2.jpg" data-lity>
+                     <div class="portfolio-img">
+                        <img src="images/port2.jpg" alt="Portfolio" title="Portfolio" />
+                        <div class="portfolio-overlay">
+                           <div class="portfolio-zoom">
+                              <img src="images/zoom.png" alt="Zoom" />
+                           </div>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <div class="col-25  hair portfolio-card">
+                  <a class="#" href="images/port3.jpg" data-lity>
+                     <div class="portfolio-img">
+                        <img src="images/port3.jpg" alt="Portfolio" title="Portfolio" />
+                        <div class="portfolio-overlay">
+                           <div class="portfolio-zoom">
+                              <img src="images/zoom.png" alt="Zoom" />
+                           </div>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <div class="col-25 hair portfolio-card">
+                  <a class="#" href="images/port4.jpg" data-lity>
+                     <div class="portfolio-img">
+                        <img src="images/port4.jpg" alt="Portfolio" title="Portfolio" />
+                        <div class="portfolio-overlay">
+                           <div class="portfolio-zoom">
+                              <img src="images/zoom.png" alt="Zoom" />
+                           </div>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <div class="col-25 hair makeup portfolio-card">
+                  <a class="#" href="images/port5.jpg" data-lity>
+                     <div class="portfolio-img">
+                        <img src="images/port5.jpg" alt="Portfolio" title="Portfolio" />
+                        <div class="portfolio-overlay">
+                           <div class="portfolio-zoom">
+                              <img src="images/zoom.png" alt="Zoom" />
+                           </div>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <div class="col-25 makeup eye portfolio-card">
+                  <a class="#" href="images/port6.jpg" data-lity>
+                     <div class="portfolio-img">
+                        <img src="images/port6.jpg" alt="Portfolio" title="Portfolio" />
+                        <div class="portfolio-overlay">
+                           <div class="portfolio-zoom">
+                              <img src="images/zoom.png" alt="Zoom" />
+                           </div>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <div class="col-25 hair portfolio-card">
+                  <a class="#" href="images/port7.jpg" data-lity>
+                     <div class="portfolio-img">
+                        <img src="images/port7.jpg" alt="Portfolio" title="Portfolio" />
+                        <div class="portfolio-overlay">
+                           <div class="portfolio-zoom">
+                              <img src="images/zoom.png" alt="Zoom" />
+                           </div>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <div class="col-25 eye portfolio-card">
+                  <a class="#" href="images/port8.jpg" data-lity>
+                     <div class="portfolio-img">
+                        <img src="images/port8.jpg" alt="Portfolio" title="Portfolio" />
+                        <div class="portfolio-overlay">
+                           <div class="portfolio-zoom">
+                              <img src="images/zoom.png" alt="Zoom" />
+                           </div>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <div class="col-25 hair portfolio-card">
+                  <a class="#" href="images/port9.jpg" data-lity>
+                     <div class="portfolio-img">
+                        <img src="images/port9.jpg" alt="Portfolio" title="Portfolio" />
+                        <div class="portfolio-overlay">
+                           <div class="portfolio-zoom">
+                              <img src="images/zoom.png" alt="Zoom" />
+                           </div>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <div class="col-25 hair portfolio-card">
+                  <a class="#" href="images/port10.jpg" data-lity>
+                     <div class="portfolio-img">
+                        <img src="images/port10.jpg" alt="Portfolio" title="Portfolio" />
+                        <div class="portfolio-overlay">
+                           <div class="portfolio-zoom">
+                              <img src="images/zoom.png" alt="Zoom" />
+                           </div>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+            </div>
+            <!--Portfolio  End-->
 
-    <!-- script for responsive tabs -->
-    <script src="js/easy-responsive-tabs.js"></script>
-    <!-- <script>
-		$(document).ready(function () {
-			$('#horizontalTab').easyResponsiveTabs({
-				type: 'default', //Types: default, vertical, accordion           
-				width: 'auto', //auto or any width like 600px
-				fit: true, // 100% fit in a container
-				closed: 'accordion', // Start closed if in accordion view
-				activate: function (event) { // Callback function if tab is switched
-					var $tab = $(this);
-					var $info = $('#tabInfo');
-					var $name = $('span', $info);
-					$name.text($tab.text());
-					$info.show();
-				}
-			});
-			$('#verticalTab').easyResponsiveTabs({
-				type: 'vertical',
-				width: 'auto',
-				fit: true
-			});
-		});
-	</script> -->
-    <!--// script for responsive tabs -->
+            <div class="col-md-12 text-center">
+               <a href="our-works.html" class="btn btn-warning" style="color:#fff;">View More</a>
+            </div>
+         </div>
+      </div>
+      <!--Container End-->
+   </div>
+   <!--Testimonial  Area Start -->
+   <div class="testimonial-main-container" id="testimonial">
+      <div class="container">
+         <!--Testimonial Slider  Start-->
+         <div class="testimonial-slider row">
+            <div class="testimonial-inner">
+               <div class="row">
+                  <div class="testimonial-left col-md-6" style="font-size:medium">
+                     <!--left side-->
 
-    <!-- Flexisel-js for-testimonials -->
-    <script type="text/javascript">
-        $(window).load(function() {
-            $("#flexiselDemo1").flexisel({
-                visibleItems: 1,
-                animationSpeed: 1000,
-                autoPlay: false,
-                autoPlaySpeed: 3000,
-                pauseOnHover: true,
-                enableResponsiveBreakpoints: true,
-                responsiveBreakpoints: {
-                    portrait: {
-                        changePoint: 480,
-                        visibleItems: 1
-                    },
-                    landscape: {
-                        changePoint: 640,
-                        visibleItems: 1
-                    },
-                    tablet: {
-                        changePoint: 768,
-                        visibleItems: 1
-                    }
-                }
-            });
+                     <div style="width:100%;margin-left: 20%;"
+                        class="col-lg-6 col-md-6 contact-right d-flex justify-content-between flex-column "
+                        style="width:100%">
+                        <div class="contact-information  d-flex  flex-column"
+                           style="width:200%;transform: translateX(-10%);">
+                           <div class="section-title">
+                              <h2 style="font:black">
+                                 Inquiry
+                              </h2>
+                           </div>
+                           <!-- Contact Left Start -->
+                           <div class="contact-us-single-item d-flex" id="leftside">
+                              <div class="contact-icon">
+                                 <i class="fa fa-calendar" aria-hidden="true"></i>
+                              </div>
+                              <ul class="working-hour ">
+                                 <li>
+                                    <div style="font:black">Mon to Sun</div>
+                                    <br>
+                                    <div style="font:black">10:30AM - 09:30PM</div>
 
-        });
-    </script>
-    <script type="text/javascript" src="js/jquery.flexisel.js"></script>
-    <!-- Flexisel-js for-testimonials -->
 
-    <!-- Calendar js for date picker-->
-    <script src="js/jquery-ui.js"></script>
-    <script>
-        $(function() {
-            $("#datepicker,#datepicker1,#datepicker2,#datepicker3").datepicker();
-        });
-    </script>
-    <!-- //Calendar -->
+                                 </li>
+                              </ul>
+                           </div>
 
-    <!-- Banner Responsiveslides -->
-    <script src="js/responsiveslides.min.js"></script>
-    <script>
-        // You can also use "$(window).load(function() {"
-        $(function() {
-            // Slideshow 4
-            $("#slider3").responsiveSlides({
-                auto: true,
-                pager: true,
-                nav: false,
-                speed: 500,
-                namespace: "callbacks",
-                before: function() {
-                    $('.events').append("<li>before event fired.</li>");
-                },
-                after: function() {
-                    $('.events').append("<li>after event fired.</li>");
-                }
-            });
 
-        });
-    </script>
-    <!-- // Banner Responsiveslides -->
+                           <div class="contact-us-single-item d-flex">
 
-    <!-- start-smoth-scrolling -->
-    <script src="js/SmoothScroll.min.js"></script>
-    <script type="text/javascript" src="js/move-top.js"></script>
-    <script type="text/javascript" src="js/easing.js"></script>
-    <script type="text/javascript">
-        (function() {
-            const ARRAY_GALLERY = document.querySelectorAll(".gallery");
-            const URL_GALLERY = "gallery/gallery.html"
-            for (let i = 0; i < ARRAY_GALLERY.length; i++) {
-                ARRAY_GALLERY[i].setAttribute("href", URL_GALLERY);
-            }
-        }());
-    </script>
-    <!-- here stars scrolling icon -->
-    <script type="text/javascript">
-        $(document).ready(function() {
-            /*
-            	var defaults = {
-            	containerID: 'toTop', // fading element id
-            	containerHoverID: 'toTopHover', // fading element hover id
-            	scrollSpeed: 1200,
-            	easingType: 'linear' 
-            	};
-            */
+                              <div style="font-size: 18px; font-weight: bold;font:black">Visit Our Nearest Location
+                              </div>
+                           </div>
+                           <div class="contact-us-single-item d-flex">
+                              <div class="contact-icon">
+                                 <i class="fa fa-map-marker" aria-hidden="true"></i>
+                              </div>
+                              <div>Shop no.15, Navdurga chs, plot no. 7/7A, WING-A, Basveshewar
+                                 Maharaj Marg,Nerul East, Sector 19A, Nerul, Navi Mumbai, Maharashtra 400706. </div>
+                           </div>
 
-            $().UItoTop({
-                easingType: 'easeOutQuart'
-            });
+                           <div class="contact-us-single-item d-flex">
+                              <div class="contact-icon">
+                                 <i class="fa fa-phone" style="color:black"></i>
+                              </div>
+                              <div style="font:black">+91 080703 34500</div>
+                           </div>
 
-        });
-    </script>
-    <script type="text/javascript">
-        jQuery(document).ready(function($) {
-            $("#name,#email,#tel,#message").change(function email() {
-                let subject = document.getElementById("name").value + ":";
-                let sub = document.getElementById("tel").value;
-                subject = subject + sub;
-                let name = "Name : " + document.getElementById("name").value + "\n";
-                let email = "Email : " + document.getElementById("email").value + "\n";
-                let tel = "Number : " + document.getElementById("tel").value + "\n";
-                let message = "Message : '  " + document.getElementById("message").value + "  '";
-                let body = name + "     " + email + "     " + tel + "     " + message;
-                let link = "mailto:makmesalon@gmail.com?subject=" + subject + "&body=" + body;
-                console.log("link : " + link);
-                document.getElementById("link").href = link;
-            });
-        });
-    </script>
-    <!-- //here ends scrolling icon -->
-    <!-- start-smoth-scrolling -->
+                           <div class="contact-us-single-item d-flex">
+                              <div class="contact-icon">
+                                 <i class="fa fa-map-marker" aria-hidden="true"></i>
+                              </div>
 
-    <!-- //js-scripts -->
+                              <div style="font:black">Shantivan Cooperative Housing Society, shop no. 6, Raintree
+                                 Marg,Sector 6,CBD Belapur, Navi Mumbai, Maharashtra 400614.</div>
+                           </div>
+
+                           <div class="contact-us-single-item d-flex">
+                              <div class="contact-icon">
+                                 <i class="fa fa-phone" style="color:black;"></i>
+                              </div>
+                              <div style="font:black">+91 099876 88883</div>
+                           </div>
+                           <div class="contact-us-single-item d-flex">
+                              <div class="contact-icon">
+                                 <i class="fa fa-envelope" style="color:black;"></i>
+                              </div>
+                              <div style="font:black">makmesalon@gmail.com</div>
+                           </div>
+                        </div>
+                     </div>
+
+                  </div>
+                  <div class="testimonial-right col-md-6" style="height:100%">
+
+                     <div class="testimonial-right-inner" class="form-wrapper"
+                        style="height:fit-content;background-color:#fff">
+
+                        <!--rightside-->
+
+                        <!-- Contact Right Start -->
+
+                        <form action="#" method="post" id="book_now" name="book_now" class="contact-form"
+                           onsubmit="sendEmail(); reset(); return false;"
+                           style="width:80%;margin-left:20%;background-color: #fff;display: flex;flex-direction: column;margin-right: 20%;align-items: center;border-radius:5px;">
+                           <div style="padding:6px">
+                              <label for="name" class="floatLabel"></label>
+                              <input id="name" name="name" type="text" class="my-input" placeholder="Type Your Name" />
+                           </div>
+                           <div style="padding:6px">
+                              <label for="phone" class="floatLabel"></label>
+                              <input id="phone" name="phone" type="text" class="my-input"
+                                 placeholder="Type your phone Number" />
+                           </div>
+                           <div style="padding:0px">
+                              <label for="email" class="floatLabel"></label>
+                              <input id="email" name="email" type="text" class="my-input" placeholder="Email" />
+                           </div>
+                           <div>
+                              <label for="sources" class="floatLabel"></label>
+                              <select class="selector" name="book_services" id="selector">
+                                 <option value="">Choose Your Service</option>
+                                 <option value="basic-care">Basic Care</option>
+                                 <option value="haircolor">Hair Color</option>
+                                 <option value="haircut-style">Haircut Style</option>
+                                 <option value="nail-beyound">Nail Beyound</option>
+                                 <option value="skin-care">Skin Care</option>
+                                 <option value="therapies-makeup">Therapies & Makeup</option>
+                                 <option value="treatment">Treatment</option>
+                              </select>
+                           </div>
+                           <div>
+                              <label for="date" class="floatLabel"></label>
+                              <div id="datepicker" style="transform: translateX(6%);width:94%" class="input-group date"
+                                 data-date-format="mm-dd-yyyy">
+                                 <input class="form-control" type="text" id="book_date" name="book_date" />
+                                 <span class="input-group-addon"><img src="images/date.png" alt="Date" /></span>
+                              </div>
+                           </div>
+                           <div style="padding:6px;width:fit-content">
+
+                              <label for="message" class="floatLabel"></label>
+                              <textarea id="message" name="message" class="my-input" placeholder="Type your message"
+                                 style="transform: translateX(-3%);"></textarea>
+
+                           </div>
+                           <input type="submit" style="background-color:black;color:#fff;width: 100%;border-radius:5%;"
+                              value="Book Now" id="submit" class="boxed-btn submit-btn" />
+                        </form>
+
+                        <!-- Contact Right End -->
+                     </div>
+
+                  </div>
+
+               </div>
+            </div>
+         </div>
+
+
+      </div>
+   </div>
+   <!--Testimonial Slider  End-->
+   </div>
+   <!--Container End-->
+   </div>
+   <!-- Testimonial Area End -->
+   <div class="row justify-content-center" style="height:550px">
+      <div class="contact_map" style="width:80%;z-index:0;height:100%">
+         <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.7669649270556!2d73.02248431490048!3d19.029987687114275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3b89dfe568b%3A0x8755227f3bb81439!2sMakme%20Salon%20Nerul!5e0!3m2!1sen!2sin!4v1572866577819!5m2!1sen!2sin"
+            frameborder="0" style="border:0;height:100%;width:100%;z-index:5000;" allowfullscreen=""></iframe>
+         <div class="clearfix"></div>
+      </div>
+   </div>
+   <!-- Contact Area Start -->
+
+
+
+
+   <!--idher paste kiya-->
+
+   <!-- <div class="contact-information  d-flex  flex-column">
+                  <div class="section-title">
+                     <h2 class="title text-white">
+                        Inquiry
+                     </h2>
+                  </div>
+                 
+                    <div class="contact-us-single-item d-flex">
+                     <div class="contact-icon">
+                        <img src="images/cal.png" alt="Calender" />
+                     </div>
+                     <ul class="working-hour ">
+                        <li class="d-flex justify-content-between">
+                           <div class="work-day">Monday to Sunday</div>
+                           <div class="work-time">10:30AM - 09:30PM</div>
+                        </li>
+                     </ul>
+                  </div>
+
+
+                  <div class="contact-us-single-item d-flex">
+
+                     <div class="work-info" style="font-size: 18px; font-weight: bold;">Visit Our Nearest Location
+                     </div>
+                  </div>
+                  <div class="contact-us-single-item d-flex">
+                     <div class="contact-icon">
+                        <img src="images/map.png" alt="Map" / width="30">
+                     </div>
+                     <div class="work-info">Shop no.15, Navdurga chs, plot no. 7/7A, WING-A, Basveshewar Maharaj Marg,
+                        Nerul East, Sector 19A, Nerul, Navi Mumbai, Maharashtra 400706. </div>
+                  </div>
+
+                  <div class="contact-us-single-item d-flex">
+                     <div class="contact-icon">
+                        <i class="fa fa-phone" style="color: #fff;"></i>
+                     </div>
+                     <div class="work-info">+91 080703 34500</div>
+                  </div>
+
+                  <div class="contact-us-single-item d-flex">
+                     <div class="contact-icon">
+                        <img src="images/map.png" alt="Map" / width="25">
+                     </div>
+                     <div class="work-info">Shantivan Cooperative Housing Society, shop no. 6, Raintree Marg, Sector 6,
+                        CBD Belapur, Navi Mumbai, Maharashtra 400614.</div>
+                  </div>
+
+                  <div class="contact-us-single-item d-flex">
+                     <div class="contact-icon">
+                        <i class="fa fa-phone" style="color: #fff;"></i>
+                     </div>
+                     <div class="work-info">+91 099876 88883</div>
+                  </div>
+                  <div class="contact-us-single-item d-flex">
+                     <div class="contact-icon">
+                        <i class="fa fa-envelope" style="color: #fff;"></i>
+                     </div>
+                     <div class="work-info">makmesalon@gmail.com</div>
+                  </div>
+               </div>-->
+
+   <!-- Contact Left End -->
+
+   <!--class="col-lg-6 col-md-6 contact-left px-0" -->
+   <!-- <div class="col-lg-6 col-md-6 contact-left px-0">-->
+   <!-- Contact Right Start -->
+   <!-- <div class="form-wrapper">
+                  <form action="#" method="post" id="book_now" name="book_now" class="contact-form"
+                     onsubmit="sendEmail(); reset(); return false;">
+                     <div>
+                        <label for="name" class="floatLabel"></label>
+                        <input id="name" name="name" type="text" class="my-input" placeholder="Type Your Name" />
+                     </div>
+                     <div>
+                        <label for="phone" class="floatLabel"></label>
+                        <input id="phone" name="phone" type="text" class="my-input"
+                           placeholder="Type your phone Number" />
+                     </div>
+                     <div>
+                        <label for="email" class="floatLabel"></label>
+                        <input id="email" name="email" type="text" class="my-input" placeholder="Email" />
+                     </div>
+                     <div>
+                        <label for="sources" class="floatLabel"></label>
+                        <select id="book_services" name="book_services">
+                           <option value="">Choose Your Service</option>
+                           <option value="basic-care">Basic Care</option>
+                           <option value="haircolor">Hair Color</option>
+                           <option value="haircut-style">Haircut Style</option>
+                           <option value="nail-beyound">Nail Beyound</option>
+                           <option value="skin-care">Skin Care</option>
+                           <option value="therapies-makeup">Therapies & Makeup</option>
+                           <option value="treatment">Treatment</option>
+                        </select>
+                     </div>
+                     <div>
+                        <label for="date" class="floatLabel"></label>
+                        <div id="datepicker" class="input-group date" data-date-format="mm-dd-yyyy">
+                           <input class="form-control" type="text" id="book_date" name="book_date" />
+                           <span class="input-group-addon"><img src="images/date.png" alt="Date" /></span>
+                        </div>
+                     </div>
+                     <div>
+                        <label for="message" class="floatLabel">MESSAGE</label>
+                        <textarea id="message" name="message" class="my-input"
+                           placeholder="Type your message"></textarea>
+                     </div>
+                     <input type="submit" value="Book Now" id="submit" class="boxed-btn submit-btn" />
+
+                  </form>
+               </div>-->
+   <!-- Contact Right End -->
+   <!--</div>-->
+
+   <!-- Footer Start -->
+   <!--<div class="foot-info d-flex justify-content-between align-items-center">
+
+         
+         <div class="f_d">
+            <ul class=" footer-social social-icon icon-sm m-0 xs-text-center text-right d-flex">
+
+               <li>
+                  <a href="https://www.facebook.com/makmesalon" target="_blank">
+                     <i class="fa fa-facebook fa-lg"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="https://twitter.com/makmesalon" target="_blank">
+                     <i class="fa fa-twitter fa-lg"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.instagram.com/makmesalon/" target="_blank">
+                     <i class="fa fa-instagram fa-lg"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.youtube.com/channel/UCAuYVu2XioeHYtEEpAiWz1w" target="_blank">
+                     <i class="fa fa-youtube fa-lg"></i>
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </div>-->
+   <div style="width:60px;height:60px;position:fixed;right:10px;bottom:10px;">
+      <a href="https://wa.me/918070334500"><img src="images/whatsapp.png" alt="Whatsapp Logo"
+            style="width:60px;height:60px;" /></a>
+   </div>
+
+   <!-- Footer End -->
+
+   <!-- Contact Area End -->
+   <div id="team-modal" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-dialog-centered">
+         <div class="modal-content">
+            <div class="modal-body">
+               <div class="popup">
+                  <div class="popup-bottom-content-left">
+                     <img src="images/team-img1.jpg" class="" alt="Team Image" />
+                  </div>
+                  <div class="popup-bottom-content-right">
+                     <div class="pop-heading">
+                        <div class="pop-details-head">
+                           <h4> Ellen Rose </h4>
+                           <p> Lorem ipsum dolor sit amet, consectetur adipiscing </p>
+                           <ul class="hero-social social-icon icon-sm m-0 xs-text-center text-right d-flex">
+
+                              <li>
+                                 <a href="#" target="_blank">
+                                    <img src="images/facebook.png" alt="Facebook Logo" />
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#" target="_blank">
+                                    <img src="images/twitter.png" alt="Twitter Logo" />
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#" target="_blank">
+                                    <img src="images/instagram.png" alt="Instagram Logo" />
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="close">
+                  <span aria-hidden="true">
+                     <img src="images/cancel-popup.png" alt="Cancel Popup" />
+                  </span>
+               </button>
+            </div>
+         </div>
+      </div>
+   </div>
+   <footer class="footer">
+      <div class="container">
+         <div class="row">
+            <div class="footer-col">
+               <h4>company</h4>
+               <div class="social-links" style="display:flex;flex-direction:row;text-align:left;padding:0%">
+                  <ul style="text-align:left;">
+                     <li><a href="#home" style="width:100%;margin:-10%;z-index:-2000;">about us</a></li>
+                     <li><a href="#service" style="width:100%;margin:02%;z-index:-2000;">our services</a></li>
+                  </ul>
+               </div>
+            </div>
+
+            <div class="footer-col">
+               <h4>follow us</h4>
+               <div class="social-links" style="display:flex;flex-direction:row">
+                  <a href="https://www.facebook.com/makmesalon" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
+                  <a href="https://www.twitter.com/makmesalon" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
+                  <a href="https://www.instagram.com/makmesalon/" target="_blank"><i
+                        class="fa fa-instagram fa-lg"></i></a>
+                  <a href="https://www.youtube.com/channel/UCAuYVu2XioeHYtEEpAiWz1w" target="_blank"><i
+                        class="fa fa-linkedin-in fa-lg"></i></a>
+               </div>
+            </div>
+         </div>
+         <div class="foot-text" style="text-align: center">© Copyright 2019 Makme Salon. Powered By
+            <a href="https://usedigitalmanner.com/">https://usedigitalmanner.com/</a>
+
+         </div>
+   </footer>
+
+
+   <!-- Javascript -->
+   <script src="assets/js/jquery.min.js"></script>
+   <script src="assets/js/Popper.js"></script>
+   <script src="assets/js/bootstrap.min.js"></script>
+   <script src="assets/js/lity.js"></script>
+   <script src="assets/js/slick.min.js"></script>
+   <script src="assets/js/isotope.pkgd.min.js"></script>
+   <script src="assets/js/jquery.easing.min.js"></script>
+   <script src="assets/js/main.js"></script>
+   <script src="assets/js/bootstrap-datepicker.js"></script>
+   <script src="assets/js/swiper.min.js"></script>
+   <script src="jquery-validate/jquery.validate.min.js" type="text/javascript"></script>
+   <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+
+
+   <script src="assets/js/validation.js"></script>
+
+   <script>
+      /*$(document).keydown(function(e){
+          if(e.which === 123){
+             return false;
+          }
+      });*/
+   </script>
+
+   <script>
+
+      (function ($, root, undefined) {
+
+         $(function () {
+
+            var Engine = {
+               ui: {
+                  init: function () {
+                     var self = this;
+
+                     self.floatbox.init();
+
+                  },
+
+                  floatbox: {
+                     objLib: {
+                        floatbox: $("#planofloat"),
+                        floatbox_opener: $(".contact-opener")
+                     },
+                     init: function () {
+                        var self = this;
+                        self.open();
+                        self.close();
+
+                        self.objLib.floatbox_opener.click(function () {
+                           if (self.objLib.floatbox.hasClass('op')) {
+                              self.objLib.floatbox.animate({
+                                 "right": "-261px"
+                              }, {
+                                 duration: 300
+                              }).removeClass('op');
+                           } else {
+                              self.objLib.floatbox.animate({
+                                 "right": "0px"
+                              }, {
+                                 duration: 300
+                              }).addClass('op');
+                           }
+                        });
+
+                     },
+                     open: function () {
+                        var self = this;
+
+                        $('#collapseServicos').on('shown.bs.collapse',
+                           function () {
+                              self.objLib.floatbox_opener.fadeIn();
+                              self.objLib.floatbox.animate({
+                                 "right": "0px"
+                              }, {
+                                 duration: 300
+                              }).addClass('op');
+                           });
+                     },
+                     close: function () {
+                        var self = this;
+                        $('#collapseServicos')
+                           .on(
+                              'hidden.bs.collapse',
+                              function () {
+                                 self.objLib.floatbox_opener
+                                    .fadeOut('fast');
+                                 self.objLib.floatbox.animate({
+                                    "right": "-261px"
+                                 }, {
+                                    duration: 100
+                                 }).removeClass('op');
+                              });
+                     }
+                  },
+
+               },
+            };
+
+            Engine.ui.init(); // Iniciar Motor
+
+         });
+
+      })(jQuery, this);
+
+   </script>
+
+   <script src=" https://smtpjs.com/v3/smtp.js"></script>
+   <script>
+      function sendEmail() {
+         Email.send({
+            Host: "smtp.gmail.com",
+            Username: "",
+            Password: "3",
+            To: '',
+            From: document.getElementById("email").value,
+            Subject: "New contact form inquiry",
+            Body: "Name: " + document.getElementById("name").value
+               + "<br> Email: " + document.getElementById("email").value
+               + "<br> Phone no: " + document.getElementById("Phone no").value
+               + "<br> service selected: " + document.getElementById("service selected").value
+               + "<br> Date: " + document.getElementById("date").value
+               + "<br> Message: " + document.getElementById("message").value
+         }).then(
+            message => alert("Message sent successfully")
+         );
+      }
+   </script>
 
 </body>
 
