@@ -1,2 +1,3 @@
-# makemesalonsite
-Make me salon site using html css php.
+---
+permalink: /index.html
+---
